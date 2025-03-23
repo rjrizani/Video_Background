@@ -76,3 +76,99 @@ header .logo{
     line-height: 1em;
     text-transform: uppercase;
 }
+
+.text a{
+    display: inline-block;
+    background: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #111;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.text p{
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.text h3{    
+    font-size: 2em;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+
+/*navigation*/
+nav{
+    position: static;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: #181717;
+    color: #f3e3e3;
+}
+
+
+/*footer*/
+.social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+}
+
+.social li{
+    list-style: none;
+
+}
+
+.social li a{
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+    display: inline-block;
+    z-index: 12;
+    transform: scale(0.5);
+    margin-right: 20px;
+}
+
+
